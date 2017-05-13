@@ -1,0 +1,11 @@
+{application,exceptional,
+             [{description,"Error & exception handling helpers for Elixir"},
+              {modules,['Elixir.Exceptional','Elixir.Exceptional.Control',
+                        'Elixir.Exceptional.Normalize',
+                        'Elixir.Exceptional.Pipe','Elixir.Exceptional.Raise',
+                        'Elixir.Exceptional.Safe',
+                        'Elixir.Exceptional.TaggedStatus',
+                        'Elixir.Exceptional.Value']},
+              {registered,[]},
+              {vsn,"2.1.0"},
+              {applications,[kernel,stdlib,elixir,logger]}]}.

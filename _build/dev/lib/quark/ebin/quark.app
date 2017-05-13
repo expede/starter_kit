@@ -1,0 +1,11 @@
+{application,quark,
+             [{applications,[kernel,stdlib,elixir]},
+              {description,"Common combinators for Elixir"},
+              {modules,['Elixir.Quark','Elixir.Quark.BCKW',
+                        'Elixir.Quark.Compose','Elixir.Quark.Curry',
+                        'Elixir.Quark.FixedPoint','Elixir.Quark.M',
+                        'Elixir.Quark.Partial','Elixir.Quark.Pointfree',
+                        'Elixir.Quark.SKI','Elixir.Quark.Sequence',
+                        'Elixir.Quark.Sequence.Integer']},
+              {registered,[]},
+              {vsn,"2.2.0"}]}.
